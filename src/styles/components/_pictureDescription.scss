@@ -1,0 +1,13 @@
+.pictureDescription {
+    width: 80%;
+    align-items: stretch;
+    overflow: hidden;
+    transition: .2s all;
+
+    p {
+        border-left: 3px solid $highlight;
+        padding-left: 1rem;
+        text-transform: none;
+        padding: .5rem 1rem;
+    }
+}
