@@ -22,7 +22,7 @@ function App() {
   }
 
   useEffect(() => {
-    fetch('https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY')
+    fetch('https://api.nasa.gov/planetary/apod?api_key=CguRbf2Lkm2uXFX1CtWuctl9YxXgXDXdPLr1mRC7')
       .then(resp => resp.json())
       .then(data => {
         // parse month / day
